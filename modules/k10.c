@@ -5,8 +5,8 @@
  *  Author: GroundLayer
  */ 
 
-#include "modules/drivers/k10.h"
-#include "modules/modules/k10.h"
+#include "../drivers/k10.h"
+#include "./k10.h"
 
 #include "registrar/registrar.h"
 #include "tasks/modules.h"

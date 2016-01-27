@@ -5,8 +5,8 @@
  *  Author: GroundLayer
  */ 
 
-#include "modules/drivers/env_temp.h"
-#include "modules/drivers/k10.h"
+#include "../../rotonde-samd21-env-temp/drivers/env_temp.h"
+#include "./k10.h"
 #include "string.h"
 
 static struct usart_module K10_uart;
